@@ -50,6 +50,7 @@ var AllowedCurlOptions = map[string]bool{
 	"--data":     true, // Data payload (alternative)
 	"--location": true, // Follow redirects
 	"-H":         true, // HTTP headers
+	"--tls-max":  true, // Set max tls version
 }
 
 // sanitizeInput validates and restricts the curl options
