@@ -1,4 +1,4 @@
-module github.com/roketid/http-curl
+module github.com/ujooju/http-curl
 
 go 1.21.1
 
